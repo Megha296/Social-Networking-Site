@@ -5,8 +5,6 @@
 
 ## A basic front end prototype of a social networking site. It a very basic practice based interactive site for understanding of Html and CSS. 
 
-### http://
-
 <div align="center">
   <img alt="Demo" src="LOGIN_PAGE.png" />
 </div>
