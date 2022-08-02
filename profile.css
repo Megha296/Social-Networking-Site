@@ -1,0 +1,86 @@
+#bar1 {
+    height: 50px;
+    background-color: lightskyblue;
+    color: black;
+    font-weight: 550;
+}
+
+#profile_pic {
+    width: px;
+    margin-top: px;
+    border-radius: ;
+    border: ;
+}
+
+#menu_buttons {
+    width: 100px;
+    display: inline-block;
+}
+
+#logout_button {
+    background-color: #405d9b;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 16px;
+    width: 70px;
+}
+
+#friends_img {
+    width: 75px;
+    float: left;
+    margin: 8px;
+}
+
+#friends_bar {
+    background-color: white;
+    min-height: 400px;
+    margin-top: 20px;
+    color: #aaa;
+    padding: 8px;
+}
+
+#friends {
+    clear: both;
+    font-size: 12px;
+    font-weight: bold;
+    color: #405d9b
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    font-family: tahoma;
+    font-size: 14px;
+    height: 60px;
+}
+
+#post_button {
+    float: right;
+    background-color: #405d9b;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 14px;
+    width: 50px;
+}
+
+#post_bar {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+#post {
+    padding: 4px;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#details {
+    font-size: 16px;
+    font-family: tahoma;
+}

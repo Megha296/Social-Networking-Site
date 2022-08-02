@@ -1,0 +1,516 @@
+        body {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            border: 0px;
+            background-color: #ffffff;
+            background: url('images/Back.jpg');
+            background-repeat: no-repeat;
+            background-size: 1600px 1100px;
+            ;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+        
+        .wrapper {
+            margin: 0 auto;
+            width: 1200px;
+            height: 100%;
+        }
+        
+        .header {
+            width: 100%;
+            height: 60px;
+            background-color: #001b96;
+            position: fixed;
+            z-index: 9999;
+        }
+        
+        .headerfixed {
+            width: 100%;
+            height: 50px;
+        }
+        
+        .header .wrapper {
+            padding-top: 5px;
+        }
+        
+        .logoletter {
+            border-radius: 20px;
+        }
+        
+        #searching {
+            display: inline;
+        }
+        
+        #search {
+            width: 320px;
+            background-image: url('images/search.png');
+            background-position: 5px 4px;
+            background-size: 30px 30px;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            font-size: 16px;
+            padding: 10px 25px 10px 40px;
+            background-color: #d9f0ff;
+            border: 3px;
+            position: absolute;
+            top: 10px;
+            margin-left: 300px;
+            /* transition: width 1.5s ease-in-out;*/
+        }
+        
+        #search:focus {
+            width: 320px;
+            outline: 0px
+        }
+        
+        .icon-bar {
+            float: right;
+            width: 520px;
+            position: relative;
+        }
+        
+        .icon-bar ul {
+            margin: 0px;
+            margin-top: 2px;
+            height: 42px;
+            padding-left: 40px;
+        }
+        
+        .icon-bar ul li {
+            display: inline-block;
+            height: 42px;
+            width: 70px;
+        }
+        
+        #notify {
+            position: absolute;
+            width: 80%;
+            height: 370px;
+            background-color: rgba(25, 26, 25, 0.664);
+            right: -4px;
+            top: 112%;
+            display: none;
+        }
+        
+        .icon-bar ul li:hover #notify {
+            display: block;
+        }
+        
+        #notify p {
+            color: white;
+            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .icon-bar img {
+            width: 32px;
+            height: 25px;
+            padding-left: 20px;
+        }
+        
+        .icon-bar a {
+            width: 50px;
+            height: 50px;
+            position: relative;
+        }
+        
+        .icon-bar a p {
+            display: inline;
+            position: absolute;
+            left: 0px;
+            top: 2px;
+            color: rgb(235, 240, 241);
+            font-size: 13px;
+            margin-bottom: 0px;
+        }
+        
+        #p1 {
+            padding-left: 20px;
+        }
+        
+        #p2 {
+            padding-left: 20px;
+        }
+        
+        #p3 {
+            padding-left: 18px;
+        }
+        
+        #p4 {
+            padding-left: 13px;
+        }
+        
+        #p5 {
+            padding-left: 4px;
+        }
+        
+        #p6 {
+            padding-left: 14px;
+        }
+        
+        .sidebarleft {
+            width: 200px;
+            height: 400px;
+            background-image: linear-gradient(#001b96, rgba(0, 162, 255, 0.644), rgba(255, 116, 2, 0.671));
+            position: fixed;
+            border-radius: 4px;
+            box-shadow: 2px 6px 6px #a3a3a3;
+        }
+        
+        .leftfixed {
+            width: 200px;
+            height: 500px;
+            float: left;
+            margin-right: 20px;
+        }
+        
+        .sidebarleft img {
+            width: 150px;
+            height: 150px;
+            padding: 25px;
+            border-radius: 50%;
+        }
+        
+        .sidebarleft #sidename {
+            text-align: center;
+            position: relative;
+            top: -25px;
+            margin: 0px;
+            font-size: 16px;
+            font-family: "Comic Sans MS";
+            font-weight: bold;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .sidebarleft p {
+            text-align: center;
+            margin: 0px;
+            font-size: 12px;
+            font-family: "verdana";
+            padding-left: 10px;
+            padding-right: 10px;
+            color: #202020;
+        }
+        
+        #sidebatch {
+            position: relative;
+            top: -8px;
+        }
+        
+        #info {
+            margin-bottom: 13px;
+        }
+        
+        #viewall {
+            display: block;
+            margin: 0 auto;
+            font-size: 13px;
+            border-radius: 5px;
+            border: 0px;
+            outline: 0px;
+            background-color: #00afef;
+            color: white;
+            text-decoration: none;
+            width: 55px;
+            text-align: center;
+            padding: 2px;
+            margin-bottom: 15px;
+        }
+        
+        #viewall:hover {
+            background-color: #4F82C3;
+        }
+        
+        .sidebarleft hr {
+            width: 80%;
+            border: 0.8px solid #2316d338;
+            margin-bottom: 15px;
+        }
+        
+        #societyname a {
+            color: black;
+        }
+        
+        #societyname a:hover {
+            color: #2b1df7;
+        }
+        
+        .mainnotfixed {
+            float: left;
+            width: 570px;
+        }
+        /*to post an content section*/
+        
+        .main {
+            /*width: 558px;*/
+            /*height: 220px;*/
+            background-color: #FFFFFF;
+            border: 1px solid #B7B7B7;
+            /*position: fixed;*/
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 4px 1.5px 5px #999999;
+        }
+        /*horizontal line to seperate post and posted content*/
+        
+        .mainnotfixed hr {
+            border: 0.5px solid #B7B7B7;
+            outline: 0px;
+            width: 90%;
+            box-shadow: 1px 1px 5px #999999;
+            margin-bottom: 18px;
+        }
+        /*same class naem of post and posted content*/
+        
+        .mainpost {
+            background-color: #FFFFFF;
+            border: 1px solid #B7B7B7;
+            /*position: fixed;*/
+            border-radius: 4px;
+            padding: 15px;
+            box-shadow: 4px 1.5px 5px #999999;
+            margin-bottom: 5px;
+        }
+        /*user image size of the post and posted content*/
+        
+        .mainpost .userimg img {
+            width: 45px;
+            height: 45px;
+            /*padding-bottom: 30px;*/
+            float: left;
+        }
+        /*user name design of post and posted content*/
+        
+        .mainpost .name {
+            display: inline;
+            padding-left: 8px;
+            font-size: 16px;
+            position: relative;
+            top: 4px;
+            font-weight: bold;
+            /*float: left;*/
+        }
+        /*time of post of design for post and posted content*/
+        
+        .mainpost .time {
+            display: inline;
+            padding-left: 8px;
+            font-size: 12px;
+            color: #999999;
+            /*float: left;*/
+        }
+        /*parent of content image of the post and posted content*/
+        
+        .mainpost .post {
+            /*padding: 30px;*/
+            /*margin-top: 10px;*/
+            max-height: 250px;
+        }
+        /*content image of the post and posted content*/
+        
+        .mainpost .postimg {
+            max-width: 100%;
+            max-height: 250px;
+            display: block;
+            margin: 0 auto;
+        }
+        /*paragraph of the posted content*/
+        
+        .mainpost .quotes {
+            margin: 12px 4px 8px 4px;
+            font-size: 14px;
+            /*letter-spacing: 0.5px;*/
+            font-family: sans-serif;
+            text-align: justify;
+            padding: 5px;
+        }
+        /*post article of the input area*/
+        
+        .main .quotes textarea {
+            margin-top: 8px;
+            width: 100%;
+            height: 70px;
+            outline: 0px;
+            padding: 5px;
+            border: 1px solid #D1D1D1;
+            font-size: 14px;
+            font-family: sans-serif;
+            text-align: justify;
+            resize: none;
+            box-sizing: border-box;
+        }
+        /*post bar where post and image button available*/
+        
+        .main .postbar {
+            padding: 10px 10px 1px 10px;
+        }
+        /*design button of post in postbar*/
+        
+        .main .postbar .imgbttn {
+            display: inline;
+            /*float: left;*/
+            font-size: 15px;
+            background-color: white;
+            border: 3px solid #615D5E;
+            border-radius: 4px;
+            outline: 0px;
+            /*position: absolute;
+	left: 10px;*/
+            box-shadow: 3px 3px 5px #999999;
+        }
+        /*design button of post in postbar*/
+        
+        .main .postbar .postmypost {
+            display: inline;
+            float: right;
+            font-size: 16px;
+            padding: 6px 9px 4px 9px;
+            background-color: #43d854;
+            outline: 0px;
+            border: 0px;
+            border-radius: 4px;
+            box-shadow: 3px 3px 5px #999999;
+        }
+        /*post button hover effect*/
+        
+        .main .postbar .postmypost:hover {
+            background-color: #009688;
+            color: white;
+        }
+        /*post button when click effect*/
+        
+        .main .postbar .postmypost:active {
+            background-color: #4CAF50;
+            box-shadow: 0 5px 4px #666;
+            transform: translateY(5px);
+        }
+        /*choose image which overwritten by imgbttn*/
+        
+        .main .postbar #chooseimg {
+            width: 90px;
+            /*float: left;*/
+            height: 28px;
+            font-size: 12px;
+            position: absolute;
+            opacity: 0;
+        }
+        
+        .main .posting {
+            max-height: 150px;
+        }
+        /*==============================ADD FRIEND==========================================*/
+        
+        .rightfixed {
+            float: right;
+            position: fixed;
+            top: 100px;
+            right: 350px;
+            width: 100px;
+        }
+        /*parent of right content*/
+        
+        .sidebarright {
+            position: fixed;
+            width: 250px;
+            background-color: #FFFFFF;
+            border: 1px solid #B7B7B7;
+            border-radius: 4px;
+            box-shadow: 2px 6px 6px #999999;
+            padding: 20px;
+        }
+        /*design of suggestion content*/
+        
+        .suggesfixed {
+            position: fixed;
+        }
+        /*design of Add friend text*/
+        
+        #suggestion {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            float: left;
+            top: -28px;
+            left: 2px;
+            text-decoration: underline;
+            font-size: 20px;
+            height: 300px;
+        }
+        /*design of rightcontent i.e suggestion*/
+        
+        .rightcontent {
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            height: 40px;
+        }
+        /*design userimage in suggestion*/
+        
+        .sidebarright .rightcontent img {
+            display: inline;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            float: left;
+        }
+        /*design of username in suggestion*/
+        
+        .rightcontent p {
+            display: block;
+            width: 120px;
+            margin: auto auto;
+            margin-left: 12px;
+            margin-top: 12px;
+            float: left;
+            text-align: left;
+            font-size: 14px;
+        }
+        /*design of connect in suggestion*/
+        
+        .rightcontent a {
+            display: block;
+            float: right;
+            width: 68px;
+            font-size: 13px;
+            margin-top: 7px;
+            text-decoration: none;
+            text-align: center;
+            color: rgba(0, 0, 0, .85);
+            height: 19px;
+            padding: 1px;
+            border: 2px solid #B7B7B7;
+            border-radius: 4px;
+            /*transition: width 2s ease-in-out;*/
+        }
+        /*hover effect on connect button*/
+        
+        .rightcontent a:hover {
+            background-color: #0011fa;
+            width: 70px;
+            height: 21px;
+            border: none;
+            color: white;
+        }
+        /*creating animation when click connect*/
+        
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }

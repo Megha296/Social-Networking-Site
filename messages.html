@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Message</title>
+    <!-- CSS and JavaScript references -->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="message.css">
+
+</head>
+
+<body onload=" loadcontact() ">
+    <div class="headerfixed">
+        <div class="header">
+            <div class="wrapper">
+                <form id="Searching">
+                    <input type="text" name="search" placeholder="Search:)" id="search">
+                </form>
+                <div class="icon-bar">
+                    <ul>
+
+                        <li style="border-bottom: 5px solid rgb(255, 255, 255);">
+                            <a href="home.html" onmouseover="headerchange(1);" onmouseout="headerorigin(1);"><img src="images/Home.png" id="social-home">
+                                <p id="p1">Home</p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="Profilenew.html" onmouseover="headerchange(2);" onmouseout="headerorigin(2);"><img src="images/Profile.png" id="social-profile">
+                                <p id="p2">Profile</p>
+                            </a>
+                        </li>
+
+                        
+                        <li>
+                            <a href="messages.html" onmouseover="headerchange(4);" onmouseout="headerorigin(4);"><img src="images/Chat.png" id="social-chat">
+                                <p id="p4">Message</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onmouseover="headerchange(5);" onmouseout="headerorigin(5);"><img src="images/notification.png" id="social-notification">
+                                <p id="p5">Notifications</p>
+                            </a>
+                            <div id="notify">
+                                <p>No New Notification</p>
+                                <hr style="background-color:white;width: 90%;">
+                            </div>
+
+                        </li>
+                    </ul>
+
+                </div>
+
+                <a href="home.html"><img src="images/logo.png" width=260 height=50 class="logoletter" /></a>
+
+            </div>
+        </div>
+    </div>
+</body>
+<div class="sidebar">
+    <div class="wrapper">
+        <div class="leftfixed">
+            <div class="sidebarleft">
+                <img src="" />
+                <p id="sidename"> Name </p>
+                <p id="sidebatch">Batch</p>
+                <p id="info">Other info</p>
+                <a href="Profilenew.html" id="viewall">View Profile</a>
+                <hr>
+                <p id="societyname"><a href="society.html">Society I'm in</a></p>
+            </div>
+            <!-- End of sidebar left -->
+        </div>
+        <!-- End of leftfixed -->
+        <!-- start of right section suggestion user -->
+        <div class="rightfixed">
+            <div class="suggesfixed">
+                <p id="suggestion" style=" color:white"> Add Friend</p>
+            </div>
+
+            <!-- Start of right fixed -->
+            <div class=" sidebarright ">
+
+                <!-- suggested user -->
+                <div class="rightcontent ">
+                    <img src="../images/profile/other_profile.png " />
+                    <p class="name ">User Name</p>
+                    <a href="# " id="connect1 " onclick="changelogo( 'connect1'); ">&#x271A; Connect</a>
+
+                </div>
+
+                <div class="rightcontent ">
+                    <img src="../images/profile/other_profile.png " />
+                    <p class="name ">User Name</p>
+                    <a href="# " id="connect2 " onclick="changelogo( 'connect2'); ">&#x271A; Connect</a>
+                </div>
+
+                <div class="rightcontent ">
+                    <img src="../images/profile/other_profile.png " />
+                    <p class="name ">User Name</p>
+                    <a href="# " id="connect3 " onclick="changelogo( 'connect3'); ">&#x271A; Connect</a>
+                </div>
+
+                <div class="rightcontent ">
+                    <img src="../images/profile/other_profile.png " />
+                    <p class="name ">User Name</p>
+                    <a href="# " id="connect4 " onclick="changelogo( 'connect4'); ">&#x271A; Connect</a>
+                </div>
+
+                <div class="rightcontent ">
+                    <img src="../images/profile/other_profile.png " />
+                    <p class="name ">User Name</p>
+                    <a href="# " id="connect5 " onclick="changelogo( 'connect5'); ">&#x271A; Connect</a>
+                </div>
+                <!-- End of sugested user -->
+            </div>
+            <!-- End of right fixed -->
+
+        </div>
+        <!-- End of right section suggestion user -->
+
+    </div>
+    <!-- End of wrapper -->
+
+</div>
+<!-- End of content section -->
+<!-- start of main content section -->
+<div class="mainnotfixed">
+    <!-- Start of left contact section -->
+    <div class="contact">
+        <!-- heading messaging -->
+        <div class="headmsg">
+            <p>Hi:)</p>
+        </div>
+
+        <!-- contact section content -->
+        <div class="leftcontent">
+            <!-- Search bar -->
+            <form id="contactsearch">
+                <input type="text" name="search" placeholder="Search.." id="searchcontact">
+            </form>
+
+            <!-- Contacts -->
+            <div class="contacts">
+                <!-- users -->
+                <div class="contactuser" style="border-left: 8px solid #ff9100; margin-top: 18px;" onclick="select(1)">
+                    <img src="" class="contimg">
+                    <p class="name">Freind1</p>
+                </div>
+
+                <div class="contactuser" onclick="select(2);">
+                    <img src="" class="contimg" />
+                    <p class="name">Friend2</p>
+                </div>
+                <!-- End user -->
+
+            </div>
+            <!-- End contacts -->
+
+        </div>
+        <!-- End contact section -->
+    </div>
+    <!-- End of left contact section -->
+
+
+    <!-- Start of right chat section -->
+    <div class="chat">
+        <!-- heading chat user -->
+        <div class="chatuser">
+            <!-- heading chat user name and pic -->
+            <img src="" class="chatimg" />
+            <p class="viewname">Freind1</p>
+        </div>
+        <!-- End of chat user heading -->
+
+        <!-- chat msg start -->
+        <div class="chatmsg">
+
+            <div class="received">
+                <p>Hello</p>
+            </div>
+
+            <div class="send">
+                <p>Hi!</p>
+            </div>
+
+            <div class="received">
+                <p>How are you?</p>
+            </div>
+
+        </div>
+        <!-- End of chat msg -->
+
+        <!-- to send msg box and button -->
+        <div class="sendmessage">
+            <textarea id="textarea"></textarea>
+            <p id="sendsymbol" onclick="sendmsg();">&#x27A4;</p>
+        </div>
+        <!-- end of msg box -->
+
+    </div>
+    <!-- End of right chat section -->
+
+</div>
+<!-- End of main content section -->
